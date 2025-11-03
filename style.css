@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #000;
+  margin-top: 10px;
+}
+
+#game-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px; /* space between video and side panel */
+  margin-top: 20px;
+}
+
+/* Centered + square video */
+#output {
+  border: 2px solid black;
+  object-fit: cover;
+  border-radius: 10px;
+  width: 80vmin;
+  height: 80vmin;
+}
+
+#status {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#start-btn, #play-again-btn {
+  font-size: 18px;
+  padding: 10px 25px;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.3s;
+}
+
+#start-btn:hover, #play-again-btn:hover {
+  background-color: #ff3b2e;
+}
+
+/* Game-over / popped info box on the right side */
+#game-over {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe9e5;
+  border: 2px solid #ff6f61;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+}
+
+#result-text {
+  font-size: 22px;
+  color: #000;
+}

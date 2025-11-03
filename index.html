@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎈 Balloon Popping Game 🎈</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+</head>
+<body>
+  <h1>🎈 Balloon Popping Game 🎈</h1>
+
+  <button id="start-btn">Start Game</button>
+
+  <video id="video" autoplay playsinline style="display:none;"></video>
+  <canvas id="output"></canvas>
+
+  <div id="status">Popped: 0 / 30</div>
+
+  <div id="game-over" style="display:none;">
+    <h2 id="result-text"></h2>
+    <button id="play-again-btn">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
