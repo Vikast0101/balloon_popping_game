@@ -5,30 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b605b9a-11a1-4434-8095-dbd3ef869a81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Balloon_popping_game.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandTrackingModule.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balloon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balloon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balloon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balloon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balloon5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balloon_color.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balloon_pop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/pop.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +148,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730268773386</updated>
-      <workItem from="1762160354616" duration="15687000" />
+      <workItem from="1762160354616" duration="16530000" />
+      <workItem from="1762239819842" duration="5970000" />
     </task>
     <servers />
   </component>

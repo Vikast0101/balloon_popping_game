@@ -13,60 +13,83 @@ h1 {
   margin-top: 10px;
 }
 
-#game-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px; /* space between video and side panel */
-  margin-top: 20px;
+#start-btn, #play-again-btn {
+  margin: 16px 0;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff6f61;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-/* Centered + square video */
+/* Wider webcam/canvas area */
 #output {
-  border: 2px solid black;
-  object-fit: cover;
-  border-radius: 10px;
-  width: 80vmin;
-  height: 80vmin;
+  border: 0;
+  margin-top: 8px;
+  width: 50vw;
+  max-width: 6500px;
+  height: auto;
+  max-height: 75vh;
 }
 
 #status {
-  font-size: 20px;
-  font-weight: bold;
   margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
 }
 
-#start-btn, #play-again-btn {
-  font-size: 18px;
-  padding: 10px 25px;
-  background-color: #ff6f61;
-  border: none;
-  border-radius: 10px;
-  color: white;
-  cursor: pointer;
-  margin: 10px;
-  transition: all 0.3s;
-}
-
-#start-btn:hover, #play-again-btn:hover {
-  background-color: #ff3b2e;
-}
-
-/* Game-over / popped info box on the right side */
 #game-over {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  position: fixed;
+  inset: 0;
+  display: none;
   align-items: center;
-  background-color: #ffe9e5;
+  justify-content: center;
+}
+
+#game-over.show {
+  display: flex;
+}
+
+#game-over > div,
+#game-over h2 {
+  background: #ffe9e5;
   border: 2px solid #ff6f61;
   border-radius: 10px;
   padding: 20px;
-  width: 250px;
-  height: 200px;
 }
 
 #result-text {
   font-size: 22px;
   color: #000;
+  margin-bottom: 12px;
+}
+
+#instructions {
+  max-width: 70ch;
+  text-align: left;
+  background-color: #ffe9e5;
+  border: 2px solid #ff6f61;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+#instructions h2,
+#instructions h3 {
+  text-align: center;
+  color: #ff6f61;
+  margin: 8px 0 12px;
+}
+
+#instructions ul {
+  margin: 0 0 12px 0;
+  padding-left: 22px;
+}
+
+#instructions li {
+  margin: 6px 0;
+  color: #000;
+  line-height: 1.35;
 }

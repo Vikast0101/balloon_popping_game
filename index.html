@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>🎈 Balloon Popping Game 🎈</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- MediaPipe -->
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
 </head>
@@ -12,6 +13,25 @@
   <h1>🎈 Balloon Popping Game 🎈</h1>
 
   <button id="start-btn">Start Game</button>
+
+  <!-- Instructions shown on first load -->
+  <div id="instructions">
+    <h2>How to Play</h2>
+    <ul>
+      <li>Allow camera access when prompted — the game uses hand tracking!</li>
+      <li>Use your index finger to pop the balloons on the screen.</li>
+      <li>Each popped balloon adds to your score.</li>
+      <li>You'll have 30 balloons — try to pop them all!</li>
+      <li>Once all are popped or rise off screen, the game ends.</li>
+    </ul>
+
+    <h3>Tips:</h3>
+    <ul>
+      <li>Keep your hand within the camera view.</li>
+      <li>Ensure good lighting for accurate hand detection.</li>
+      <li>Play in front of your webcam (desktop/laptop recommended).</li>
+    </ul>
+  </div>
 
   <video id="video" autoplay playsinline style="display:none;"></video>
   <canvas id="output"></canvas>
@@ -23,6 +43,7 @@
     <button id="play-again-btn">Play Again</button>
   </div>
 
+  <!-- 👇 Correct external script tag -->
   <script src="script.js"></script>
 </body>
 </html>
